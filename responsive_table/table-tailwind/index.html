@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    class="min-h-screen grid place-content-center bg-center bg-cover bg-no-repeat bg-fixed"
+    style="background-image: url('img/background2.png')"
+  >
+    <main class="flex justify-center items-center w-screen">
+      <section
+        class="w-11/12 md:w-10/12 bg-white bg-opacity-75 backdrop-blur-md shadow-md rounded-lg overflow-hidden"
+      >
+        <hgroup class="p-3">
+          <h1 class="text-xl">Dashboard</h1>
+        </hgroup>
+        <table
+          class="border-collapse border-spacing-2 table-fixed text-left w-full"
+        >
+          <thead>
+            <tr class=>
+              <th class="bg-gray-300 px-3">Request</th>
+              <th class="bg-gray-300">Date</th>
+              <th class="bg-gray-300">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="even:bg-gray-200">
+              <td class="px-3">Diploma</td>
+              <td class="" nowrap>02-09-2024</td>
+              <td class=""><strong>Finished</strong></td>
+            </tr>
+            <tr class="even:bg-gray-200">
+              <td class="px-3">Transcript of Records</td>
+              <td class="" nowrap>02-10-2024</td>
+              <td class=""><strong>Processing</strong></td>
+            </tr>
+            <tr class="even:bg-gray-200">
+              <td class="px-3">Certification of GWA</td>
+              <td class="" nowrap>02-10-2024</td>
+              <td class=""><strong>Processing</strong></td>
+            </tr>
+            <tr class="even:bg-gray-200">
+              <td class="px-3">Certification of Grades</td>
+              <td class="" nowrap>02-11-2024</td>
+              <td class=""><strong>Pending</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
